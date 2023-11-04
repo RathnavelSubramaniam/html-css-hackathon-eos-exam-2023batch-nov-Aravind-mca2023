@@ -1,0 +1,111 @@
+html{
+    background-color: rgb(250, 242, 215);
+}
+body{
+  background-image: linear-gradient(to top right , rgb(170, 170, 105), rgb(230, 234, 238));
+}
+header p {
+    text-align: center;
+    font-size: xx-large;
+    background-image: linear-gradient(to bottom right, rgb(248, 232, 185), rgb(253, 194, 177), rgb(222, 229, 157));
+    height: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(56, 2, 2);
+}
+header img{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgb(239, 224, 224); */
+  }
+  
+  header li {
+    float: left;
+    /* padding-left: 40px; */
+    margin-left: 50px;
+    border: 2px solid white;
+    margin-right: 5px;
+    box-shadow: 2px 2px 10px;
+    background-color: #986c3f;
+    border-radius: 5px;
+    
+  }
+  
+   header li a {
+    font-weight: bold;
+    display: block;
+    color: rgb(5, 4, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 230px;
+  }
+  
+  header li a:hover:not(.active) {
+    background-color: #f2d6ca;
+  }
+    main img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  main{
+    column-count: 2;
+    width: 65%;
+    margin-top: 50px;
+  }
+  
+  main p{
+    font-size: 20px;
+    text-align: justify;
+  }
+  main p i{
+    color: #a07f3d;
+  }
+  aside .name{
+    display: block;
+    font-size: 18px;
+    float: right;
+    margin-top: -400px;
+    margin-right: 65px;
+  }
+  footer{
+    background-image: linear-gradient(to bottom right, rgb(248, 232, 185), rgb(253, 194, 177), rgb(228, 153, 238));
+    height: 30px;
+    text-align: center;
+    font-size: large;
+    margin-top: 50px; 
+  }
+  @media (max-width: 991px) {
+    .mobile-nav-toggle {
+      display: block;
+    }
+  
+    .navbar ul {
+      display: none;
+    }
+}
+  @media screen and (max-width:1115px) {
+    aside{
+        margin-top: 400px;
+        float: left;
+    }
+    footer{
+        margin-top: 200px;
+        text-align: left;
+    }
+   
+  }
+   
+    
+
